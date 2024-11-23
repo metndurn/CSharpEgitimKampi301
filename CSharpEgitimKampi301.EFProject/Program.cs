@@ -16,7 +16,7 @@ namespace CSharpEgitimKampi301.EFProject
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new FrmLocation());//baslangıc formu olarak buradan alıyor
+			Application.Run(new FrmStatistics());//baslangıc formu olarak buradan alıyor
 		}
 	}
 }
