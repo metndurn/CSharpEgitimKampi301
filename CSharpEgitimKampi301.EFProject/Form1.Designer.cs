@@ -173,6 +173,7 @@
 			this.Controls.Add(this.btnList);
 			this.Controls.Add(this.txtId);
 			this.Controls.Add(this.label1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "Form1";
 			this.Text = "Rehber İşlemleri";
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
