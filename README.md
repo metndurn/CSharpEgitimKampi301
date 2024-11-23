@@ -2,3 +2,5 @@
 katmanları yazıp ekledik daha sonra code first ile veri tabanını bağladık
 ## **bağantı ve klasör yapısı**
 gerekli bütün yapılar olusturulup klasörleme yapılarak hazır hale getırıldı
+## **EFPROJECT**
+Son Olarak EfProject Adı altında ekleme, listeleme, silme, guncelleme, islemleri yapıldı.
