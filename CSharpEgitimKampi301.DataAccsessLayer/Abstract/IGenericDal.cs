@@ -11,7 +11,7 @@ namespace CSharpEgitimKampi301.DataAccsessLayer.Abstract
 		/*standart olarak buradakı metodlar kullanılacak*/
 		void Insert(T entity);
 		void Update(T entity);
-		void Delete(int id);
+		void Delete(T entity);
 		List<T> GetAll();
 		T GetById(int id);
 	}
