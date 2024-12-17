@@ -12,6 +12,10 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 	public class OrderManager : IOrderService
 	{
 		private readonly IOrderDal _orderDal;
+		public OrderManager(IOrderDal orderDal)
+		{
+			_orderDal = orderDal;
+		}
 		public void TDelete(Order entity)
 		{
 			_orderDal.Delete(entity);

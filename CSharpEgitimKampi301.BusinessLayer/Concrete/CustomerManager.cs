@@ -12,7 +12,6 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 	public class CustomerManager : ICustomerService
 	{
 		private readonly ICustomerDal _customerDal;
-
 		public CustomerManager(ICustomerDal customerDal)
 		{
 			_customerDal = customerDal;

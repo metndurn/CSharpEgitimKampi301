@@ -43,13 +43,18 @@ namespace CSharpEgitimKampi301.PresentationLayer
 			int id = int.Parse(txtCategoryId.Text);
 			var deletedValues = _categoryService.TGetById(id);
 			_categoryService.TDelete(deletedValues);
-			MessageBox.Show("Silme Başarılı.");
+			MessageBox.Show("Silme başarılı");
+
+			//int id = int.Parse(txtCategoryId.Text);
+			//var deletedValues = _categoryService.TGetById(id);
+			//_categoryService.TDelete(deletedValues);
+			//MessageBox.Show("Silme Başarılı.");
 		}
 
 		private void btnGetById_Click(object sender, EventArgs e)
 		{
-			int id= int.Parse(txtCategoryId.Text);
-			var values= _categoryService.TGetById(id);
+			int id = int.Parse(txtCategoryId.Text);
+			var values = _categoryService.TGetById(id);
 			dataGridView1.DataSource = values;
 		}
 
